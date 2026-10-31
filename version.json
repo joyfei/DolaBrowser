@@ -1,0 +1,21 @@
+{
+  "latest": "1.1.9",
+  "published": "2026-10-31T18:31:15+08:00",
+  "notes": "2026-10-31 地址栏最左边加了「＋」：给当前实例开一张临时页面。点一下就在你正在看的这个实例里多开一页 —— 用的是这个实例自己的登录态、代理和扩展，等于「同一个人在新标签页里再开个网页」，不用再为它单独建一个实例。「临时」的意思是不进账号库：不写进列表、不落登录态、不存图标，关掉这个实例时它名下的临时页面一起关掉，重开软件也不会自己回来；想留成正式实例照样走「添加实例」。没有打开任何实例时点它会提示你先开一个",
+  "patches": {
+    "1.1.8": {
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/joyfei/DolaBrowser@v1.1.9/patch-1.1.8-to-1.1.9.zip",
+        "https://github.com/joyfei/DolaBrowser/releases/download/v1.1.9/patch-1.1.8-to-1.1.9.zip"
+      ],
+      "sha256": "2e3a3e47d306c59d5cbd4545c536ddc4ad85bcecaa37b056ae94bb01802a3ec9",
+      "signature": "waVPJ9WvJPz9lKiBk04nHt+YToU8HM4q2tLcfbrtiqpWQDRuswfo9Od+ADdBaXHyclOep6xxU60KXEU3jsx2xQ==",
+      "size": 1148632,
+      "changes": 4,
+      "removed": 0
+    }
+  },
+  "full": [
+    "https://github.com/joyfei/DolaBrowser/releases/download/v1.1.9/DouLaBrowser-1.1.9-setup.exe"
+  ]
+}
